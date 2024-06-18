@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="636588b4-c619-4ba4-b71b-4f45c5bcfa06" name="Changes" comment="Lecture 2 exercises">
-      <change afterPath="$PROJECT_DIR$/chars_to_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elevator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integer_operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/print_part_of_ascii_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sum_of_chars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triples_of_latin_letters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/water_overflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snowballs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/party_profit.py" beforeDir="false" afterPath="$PROJECT_DIR$/party_profit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +46,14 @@
     "Python.find_the_largest_number.executor": "Debug",
     "Python.integer_operations.executor": "Run",
     "Python.next_happy_year.executor": "Run",
+    "Python.party_profit.executor": "Run",
     "Python.pounds_dollars.executor": "Run",
     "Python.print_part_of_ascii_table.executor": "Run",
+    "Python.snowballs.executor": "Run",
     "Python.special_numbers.executor": "Debug",
     "Python.sum_of_chars.executor": "Run",
     "Python.triples_of_latin_letters.executor": "Run",
+    "Python.water_overflow.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -66,8 +64,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.water_overflow">
-    <configuration name="elevator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.snowballs">
+    <configuration name="party_profit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fun_lecture2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +79,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elevator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/party_profit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sum_of_chars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="snowballs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fun_lecture2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +125,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sum_of_chars.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snowballs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.snowballs" />
+        <item itemvalue="Python.party_profit" />
         <item itemvalue="Python.water_overflow" />
         <item itemvalue="Python.triples_of_latin_letters" />
         <item itemvalue="Python.print_part_of_ascii_table" />
-        <item itemvalue="Python.sum_of_chars" />
-        <item itemvalue="Python.elevator" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718612675022</updated>
-      <workItem from="1718612676378" duration="9725000" />
+      <workItem from="1718612676378" duration="13896000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 2 exercises">
       <option name="closed" value="true" />
@@ -218,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718621796971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lecture 2 exercises">
+      <option name="closed" value="true" />
+      <created>1718625097927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718625097927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,12 +273,18 @@
           <line>2</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/party_profit.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Fun_lecture2$sum_of_chars.coverage" NAME="sum_of_chars Coverage Results" MODIFIED="1718623897795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$triples_of_latin_letters.coverage" NAME="triples_of_latin_letters Coverage Results" MODIFIED="1718624791189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fun_lecture2$snowballs.coverage" NAME="snowballs Coverage Results" MODIFIED="1718703864770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$convert_meters_kilometers.coverage" NAME="convert_meters_kilometers Coverage Results" MODIFIED="1718615413971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$find_the_largest_number.coverage" NAME="find_the_largest_number Coverage Results" MODIFIED="1718613805956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$integer_operations.coverage" NAME="integer_operations Coverage Results" MODIFIED="1718622301766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -283,7 +295,9 @@
     <SUITE FILE_PATH="coverage/Fun_lecture2$elevator.coverage" NAME="elevator Coverage Results" MODIFIED="1718623656833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$centuries_minutes.coverage" NAME="centuries_minutes Coverage Results" MODIFIED="1718615748153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$next_happy_year.coverage" NAME="next_happy_year Coverage Results" MODIFIED="1718621673595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fun_lecture2$water_overflow.coverage" NAME="water_overflow Coverage Results" MODIFIED="1718625045362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$special_numbers.coverage" NAME="special_numbers Coverage Results" MODIFIED="1718620993743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Fun_lecture2$print_part_of_ascii_table.coverage" NAME="print_part_of_ascii_table Coverage Results" MODIFIED="1718623999024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fun_lecture2$party_profit.coverage" NAME="party_profit Coverage Results" MODIFIED="1718703256475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
